@@ -1,0 +1,37 @@
+﻿Display name,Username,Password,Licenses,Roles
+Abiral Aryal,abiralaryal@omegaschool.edu.np,Nar59993,Office 365 A1 for students,Teacher
+Anju Bista,anjubista@omegaschool.edu.np,Wat65730,Office 365 A1 for students,Teacher
+Anup Poudel,anuppoudel@omegaschool.edu.np,Lup57687,Office 365 A1 for students,Teacher
+Bandana Shah,bandanashah@omegaschool.edu.np,Son40680,Office 365 A1 for students,Teacher
+Deepshika Ghimire,deepshikaghimire1@omegaschool.edu.np,Kot18492,Office 365 A1 for students,Teacher
+Dip Prajwol Pandey,dipprajwolpandey@omegaschool.edu.np,Box70529,Office 365 A1 for students,Teacher
+Jasana Maharjan,jasanamaharjan@omegaschool.edu.np,Kog96925,Office 365 A1 for students,Teacher
+Jenisa Killa Shrestha ,jenisakillashrestha@omegaschool.edu.np,Vay84304,Office 365 A1 for students,Teacher
+Jenisha Pandit ,jenishapandit@omegaschool.edu.np,Xoh83733,Office 365 A1 for students,Teacher
+Kundan Shah,kundanshah@omegaschool.edu.np,Hut87898,Office 365 A1 for students,Teacher
+Lajana Dangol,lajanadangol@omegaschool.edu.np,Puw24283,Office 365 A1 for students,Teacher
+Laxmi BK,laxmibk@omegaschool.edu.np,Vam01541,Office 365 A1 for students,Teacher
+Mijulina Bajracharya,mijulinabajracharya@omegaschool.edu.np,Yaj32669,Office 365 A1 for students,Teacher
+Muna Tumsing Magar,munatumsingmagar@omegaschool.edu.np,Maj68699,Office 365 A1 for students,Teacher
+Neharika Lama,neharikalama@omegaschool.edu.np,Saj79623,Office 365 A1 for students,Teacher
+Nikita Panday,nikitapanday@omegaschool.edu.np,Vur86520,Office 365 A1 for students,Teacher
+Nira Karki,nirakarki@omegaschool.edu.np,Mum14995,Office 365 A1 for students,Teacher
+Nisha Bhandari,nishabhandari@omegaschool.edu.np,Qan44489,Office 365 A1 for students,Teacher
+Osika Dangol,osikadangol@omegaschool.edu.np,Qaq14741,Office 365 A1 for students,Teacher
+Palisha Shakya,palishashakya@omegaschool.edu.np,Fur05675,Office 365 A1 for students,Teacher
+Pritam Kumar Jaiswal ,pritamkumarjaiswal@omegaschool.edu.np,Dus62328,Office 365 A1 for students,Teacher
+Pujan Lamsal,pujanlamsal@omegaschool.edu.np,Gos65318,Office 365 A1 for students,Teacher
+Puspa Acharya,puspaacharya@omegaschool.edu.np,Nug01678,Office 365 A1 for students,Teacher
+Rabi Kumar Shah,rabikumarshah@omegaschool.edu.np,Daw99508,Office 365 A1 for students,Teacher
+Rita Pahari,ritapahari@omegaschool.edu.np,Kar14503,Office 365 A1 for students,Teacher
+Riya Bajracharya,riyabajracharya@omegaschool.edu.np,Fot34019,Office 365 A1 for students,Teacher
+Ruji Maharjan,rujimaharjan@omegaschool.edu.np,Bus60995,Office 365 A1 for students,Teacher
+Saksham Shrestha,sakshamshrestha@omegaschool.edu.np,Noh18970,Office 365 A1 for students,Teacher
+Sandhya Bishwokarma,sandhyabishwokarma@omegaschool.edu.np,Kav66349,Office 365 A1 for students,Teacher
+Santosh Shrestha,santoshshrestha@omegaschool.edu.np,Poc43567,Office 365 A1 for students,Teacher
+Saphar KC,sapharkc@omegaschool.edu.np,Toy25400,Office 365 A1 for students,Teacher
+Saru Gharti Magar,sarughartimagar@omegaschool.edu.np,Kaj95170,Office 365 A1 for students,Teacher
+Shreeram Neupane,shreeramneupane@omegaschool.edu.np,Roc21299,Office 365 A1 for students,Teacher
+Sofiya Thapa,sofiyathapa@omegaschool.edu.np,Bod74722,Office 365 A1 for students,Teacher
+Srijana Tiwari,srijanatiwari@omegaschool.edu.np,Wuc15231,Office 365 A1 for students,Teacher
+Upasana Chand,upasanachand@omegaschool.edu.np,Von03816,Office 365 A1 for students,Teacher
