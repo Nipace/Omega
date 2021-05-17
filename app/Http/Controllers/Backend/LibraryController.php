@@ -69,8 +69,8 @@ class LibraryController extends Controller
         $book = $request->file('book');
          $extension = $book->getClientOriginalExtension();
          Storage::disk('public')->put($book->getFilename().'.'.$extension,  File::get($book));
-      $library->book=$book->getFilename().'.'.$extension;
-      Ghostscript::setGsPath('C:\Program Files\gs\gs9.53.3\bin\gswin64c.exe');
+         $library->book=$book->getFilename().'.'.$extension;
+         Ghostscript::setGsPath('C:\Program Files\gs\gs9.53.3\bin\gswin64c.exe');
     
       $pdf=new Pdf($book);
       $output_file_name="thumbs_".uniqid().".png";

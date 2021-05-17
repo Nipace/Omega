@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Http\Request;
+use App\Backend\News;
+use App\Backend\Event;
+use App\Library;
 
 use Illuminate\Support\Facades\Hash;
 
@@ -25,7 +28,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        $student = $this->studentCount();
+        $teacher = $this->teacherCount();
+        $news = $this->newsCount();
+        $events = $this->eventsCount();
+        $new_students = $this->newStudents();
+        $new_books = $this->recentBooks();
+        return view('dashboard',compact('student', 'teacher', 'news','events','new_students', 'new_books'));
     }
     public function resetPassword()
     {
@@ -45,10 +54,47 @@ class HomeController extends Controller
          $user->is_password_reset = '1';
          $user->save();
          return redirect('/home');
-    }
+        }
         else{
             return "vayena";
         }
        
     }
+
+    public function studentCount()
+    {
+        $student = User::whereHas("roles", function($q){ $q->where("name", "Student"); })->count();
+        return $student;
+    }
+    
+    public function teacherCount()
+    {
+        $teacher = User::whereHas("roles", function($q){ $q->where("name", "Student"); })->count();
+        return $teacher;
+    }
+
+    public function newsCount()
+    {
+        $news = News::all()->count();
+        return $news;
+    }
+    
+    public function eventsCount()
+    {
+        $events = Event::all()->count();
+        return $events;
+    }
+
+    public function newStudents()
+    {
+        $new_student = User::whereHas("roles", function($q){ $q->where("name", "Student"); })->orderBy('created_at','desc')->paginate(8);
+        return $new_student;
+    }
+
+    public function recentBooks()
+    {
+        $recent_books = Library::orderBy('created_at','desc')->paginate(8);
+        return $recent_books;
+    }
+
 }
